@@ -1,0 +1,103 @@
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .studiohero {
+        background-image: linear-gradient(rgba(45, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                            url("../images/media/hero2xtabletview.jpg");    
+        min-width: 768px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;  
+
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .section-container{
+    max-width: 768px;
+    
+    }
+    .sectionstudio{
+        display: none;
+    }
+    .studiofeature-ul .list img{
+        display: none;
+    }
+    .herobutton{
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        margin: auto;
+    }
+     .studiohero h1{
+        display: block;
+        max-width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.11em;
+        letter-spacing: 0.72px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 36px;
+        
+    }
+    .feature-list {
+        margin: auto;
+        min-height: 120px;
+        gap: 72px 24px;
+        display: block;
+        text-align: left;
+        justify-content: center;
+    }
+    .feature-list h3{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11em;
+        letter-spacing: 0.72px;
+        margin-bottom: 8px;
+    }
+     .studio-team{
+      margin: auto;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 64px;
+     
+    }
+    .address-item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .headeradd {
+        margin: auto;
+        padding: 16px;
+        text-align: left;
+        justify-content: center;
+        }
+
+    .studioheader {
+        border-bottom: 1px solid var(--cornflower);
+        
+        }
+    
+   .footer-details-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 72px;
+    
+   }
+   .foot-container{
+    max-width: 552px;
+   }
+
+ 
+
+}
